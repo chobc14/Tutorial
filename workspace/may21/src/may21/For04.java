@@ -21,6 +21,6 @@ public class For04 {
 			System.out.println(dan + " X " + i + " = " + (dan * i));
 		}
 		
-		
+		//test
 	}
 }
