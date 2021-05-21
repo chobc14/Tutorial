@@ -1,0 +1,19 @@
+package may21;
+
+import java.util.Scanner;
+
+// 2단 출력
+public class For04 {
+	public static void main(String[] args) {
+		
+		//scanner
+		Scanner sc = new Scanner(System.in);
+		
+		//입력
+		
+		// for 로 2단
+		
+		
+		
+	}
+}

@@ -1,0 +1,12 @@
+package may21;
+// three random numbers sorting em out from sml to biggest
+public class IF05 {
+	public static void main(String [] args ) {
+		int  random1 = (int) (Math.random() * 10 + 1);
+		int  random2 = (int) (Math.random() * 10 + 1);
+		int  random3 = (int) (Math.random() * 10 + 1);
+				
+		System.out.println(random1 + ", " + random2 + ", "+ random 3);
+		
+	}
+}

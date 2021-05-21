@@ -1,0 +1,24 @@
+package may21;
+/*중첩
+ * 바깥쪽의 조건이 먼저 충족해야지
+ * 안에 있는 것이 충족되어 실행됨. 
+ * 만약 바깥족 조건이 실행이 안되면 실행이 안됨.
+ * 
+ */
+public class If06 {
+
+	public static void main(String[] args) {
+
+		double ran = Math.random() * 10 + 1;// random number
+		System.out.println(ran);
+		
+		int number = (int) ran;
+		System.out.println(number);
+		
+		int number2 = (int)(Math.random()* 10 + 1);
+		
+		char ch = 'A';
+		 ch = (char) number;
+		System.out.println(ch);
+	}
+}

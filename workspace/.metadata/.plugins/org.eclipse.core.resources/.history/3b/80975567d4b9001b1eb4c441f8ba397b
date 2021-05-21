@@ -1,0 +1,24 @@
+package may21;
+// if practice
+public class IF03 {
+
+	public static void main(String[] args) {
+		// ·£´ý°ª »Ì±â
+		for (int i = 0; i <100; i++) {
+		
+			double random = Math.random()* 5;//0.06696323272015126 pseudorandom
+			System.out.println(random);
+		
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+		
+}
+
+

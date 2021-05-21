@@ -1,0 +1,31 @@
+package may21;
+//game 
+public class If07 {
+	 public static void main(String[] args) {
+		
+		//1. 사용자의 입력 받기 = scanner
+		 
+		 //2. 컴유터의 숫자 받기
+		 
+		 //3. 판정하기 출력하기
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	}
+	
+}

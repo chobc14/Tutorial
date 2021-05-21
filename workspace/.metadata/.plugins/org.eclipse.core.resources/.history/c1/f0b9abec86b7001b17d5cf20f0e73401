@@ -1,0 +1,61 @@
+package may18;
+//데이터 타입
+/*자바에서는 변수 상수 그 값을 담기위해서는 반드시 그 값의 타입에 맞는 변수를 사용
+ * 이를 데이터 타입이라 부름.
+ * 데이터 타입은 크게 (R ,P)로 구분 (reference, primitive)
+ * 
+ * Reference 참조타입
+ * Primitive 기본타입
+ * 
+ * Primitive = 수치형 문자형 논리형 (메모리 크기를 엄격하게 제한함)
+ * 
+ *  수치형(정수형, 실수형)
+ * 
+ * 		정수형 	1 byte
+ *  			2 short
+ *  			3 int (기본)
+ *  			4 long
+ * 
+ * 		실수형 5 float & 6 double(기본)
+ * 
+ * 7 문자형=한글자= a, 가, 趙, $ (글자 한글자만 담겨짐)
+ * 				character
+ * 
+ * 8 논리형=참/거짓 = true or false (no data size)
+ * 				boolean
+ * 			
+ */
+public class DataType1 {
+
+	public static void main(String[] args) {
+		//메소드 바디속에서 선언되는 변수는 지역변수라고 한다. {이 가로안에서}
+		//데이터타입         변수명 =값;
+		byte 			byteNumber = 10;
+		// -128~0~127 까지
+		short shortNumber = byteNumber; //-32,768 ~ 32767
+		shortNumber = 32767;
+		System.out.println(byteNumber);
+		System.out.println(shortNumber);
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+package may21;
+// if practice
+public class IF03 {
+
+	public static void main(String[] args) {
+		// ·£´ý°ª »Ì±â
+		double random = Math.random();
+		System.out.println(random);
+		
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
