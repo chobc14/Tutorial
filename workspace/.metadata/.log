@@ -2637,6 +2637,7 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
 !ENTRY org.eclipse.jface 2 0 2021-06-18 17:57:18.508
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-06-18 17:57:18.508
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
