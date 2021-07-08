@@ -5,35 +5,38 @@ import java.util.Scanner;
 class Menu {
 	
 	public int number;
-	public String name;
+
 	
-	public Menu(int number, String name) {
+	public Menu(int number) {
 		this.number = number;
-		this.name = name;
+	
 	}
 	
 	public void Process() {
-		System.out.println(name);
+	
 	}
 }
 
 class MenuBreakFast extends Menu {
 	
-	public MenuBreakFast(int number, String name) {
-		super(number, name);
+	public MenuBreakFast(int number) {
+		super(number);
 	}
 	
 	@Override
 	public void Process() {
 		super.Process();
 		
-		System.out.println("아침밥으로 먹었다");
+		System.out.println("아침에 단백질 몇 그람?");
+		Scanner sc = new Scanner(System.in);
+		int input = sc.nextInt(); 
+	
 	}
 }
 
-class MenuLaunch extends Menu {
+class MenuLunch extends Menu {
 	
-	public MenuLaunch(int number, String name) {
+	public MenuLunch(int number, String name) {
 		super(number, name);
 	}
 	
@@ -58,7 +61,7 @@ public class Main {
 	public static void main(String[] args) {
 		MenuArr = new Menu[5];
 		MenuArr[0] = new MenuBreakFast(1, "아침");
-		MenuArr[1] = new MenuLaunch(2, "점심");
+		MenuArr[1] = new MenuLunch(2, "점심");
 		MenuArr[2] = new Menu(3, "저녁");
 		MenuArr[3] = new Menu(4, "간식");
 		MenuArr[4] = new Menu(5, "나가기");
